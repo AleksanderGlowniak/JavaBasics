@@ -2,11 +2,8 @@ public class AutoTest {
 
     public static void main(String[] args) {
 
-        Auto fiat = new Auto();
-        fiat.marka = "Fiat";
-        fiat.model = "Tipo";
-        fiat.rokProdukcji = 2017;
-        fiat.przebieg = 60000;
+        Auto fiat = new Auto("Fiat", "Tipo", 2017, 60000);
+
 
         fiat.jedz();
         fiat.hamuj();
