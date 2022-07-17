@@ -8,12 +8,15 @@ public class Homework4 {
 
     public static void main(String[] args) {
 
+        String uczelnia = Student.nazwaUczelni;
+
         Student student1 = new Student();
         student1.imie = "Olek";
         student1.nazwisko = "X";
         student1.numerIndeksu = 1;
         student1.email = "olek@gmail.com";
         student1.nick = "olek123";
+        String uczelniaOlka = student1.nazwaUczelni;
 
         Student student2 = new Student();
         student2.imie = "Kamil";
