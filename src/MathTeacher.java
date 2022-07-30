@@ -4,7 +4,13 @@ public class MathTeacher extends Person {
 
     public MathTeacher(String name, int age, String school) {
         super(name, age);
+        System.out.println("jestem w konstruktorze mathteacher");
         this.school = school;
+    }
+
+    public void walk(){
+
+        System.out.println("i walk very fast");
     }
 
     public void teachMath(){
