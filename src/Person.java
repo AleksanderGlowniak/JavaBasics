@@ -5,6 +5,7 @@ public class Person {
 
 
     public Person(String name, int age){
+        System.out.println("jestem w konstruktorze person");
         this.name = name;
         this.age = age;
     }
