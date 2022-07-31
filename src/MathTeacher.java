@@ -9,7 +9,7 @@ public class MathTeacher extends Person {
     }
 
     public void walk(){
-
+        super.walk();
         System.out.println("i walk very fast");
     }
 
